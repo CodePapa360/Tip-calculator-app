@@ -22,9 +22,9 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges)
 <div align="center">
 <!-- Status -->
 
-<img src="https://img.shields.io/badge/Status-Incomplete-red?style=flat" alt="Status" />
+<!-- <img src="https://img.shields.io/badge/Status-Incomplete-red?style=flat" alt="Status" /> -->
 
-<!-- <img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status" /> -->
+<img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status" />
 
 <!-- Liceensee -->
 <img src="https://img.shields.io/badge/License-MIT-blue?style=flat" alt="License" />
@@ -33,7 +33,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges)
 <hr>
 
 <div align="center">
-<!-- Project brief -->
+This is a simple and responsive tip calculator app that allows users to calculate the tip amount for a restaurant bill. It also includes the functionality to divide the total bill among multiple people, providing the cost per person. This app offers a user-friendly interface, ensuring accurate and convenient results across various devices.
 <p>
 
 </p>
@@ -64,6 +64,10 @@ Users should be able to:
 - JavaScript
 - NPM
 - [Webpack - a module bundler](https://webpack.js.org/)
+
+## What I Learned
+
+Throughout the development of the Tip Calculator app, I deepened my CSS and JavaScript skills. I focused on efficient DOM manipulation, responsive design, event handling and validation. This project allowed me to further refine my front-end development abilities, leveraging my existing expertise in CSS and JavaScript to create a visually appealing and user-friendly app.
 
 ## Installation
 
@@ -108,7 +112,7 @@ Give a ⭐️ if you liked this project!
 
 ## Acknowledgments
 
-Special thanks to Frontend Mentor for providing such an amazing platform to practice and improve my frontend skills. The challenges and projects available on the website were both fun and challenging, and helped me learn a lot in a short amount of time.
+Special thanks to Frontend Mentor for providing such an amazing platform to practice and improve my frontend skills.
 
 ## License
 
