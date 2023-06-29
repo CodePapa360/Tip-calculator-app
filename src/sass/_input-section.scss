@@ -54,6 +54,7 @@
     width: 100%;
     background-color: var(--very-light-grayish-cyan);
     border: 2px solid transparent;
+    border: none;
     outline: none;
     border-radius: 5px;
     padding: 0.3rem 1rem;
@@ -62,7 +63,7 @@
     font-size: 1.5rem;
 
     &:focus {
-      border-color: var(--strong-cyan);
+      outline: 2px solid var(--strong-cyan);
     }
 
     &::-webkit-outer-spin-button,

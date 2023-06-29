@@ -9,9 +9,9 @@
   --red: hsl(0, 77%, 40%);
 }
 
-$bp-medium: 700px;
-$bp-small: 330px;
-$bp-very-small: 260px;
+$bp-medium: 43.75em;
+$bp-small: 20.625em;
+$bp-very-small: 16.25em;
 
 html {
   @media screen and (max-width: $bp-small) {
