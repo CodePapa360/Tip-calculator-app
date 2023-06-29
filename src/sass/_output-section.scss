@@ -1,0 +1,65 @@
+.output-section {
+  background-color: var(--very-dark-cyan);
+  border-radius: 15px;
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+
+  .output-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+
+  .output-label {
+    color: var(--white);
+  }
+
+  .output-sub-label {
+    color: var(--grayish-cyan);
+  }
+
+  .output-amount-wrapper {
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      display: inline;
+      vertical-align: middle;
+      margin-right: -0.5rem;
+
+      path {
+        fill: var(--strong-cyan);
+      }
+    }
+
+    // img {
+    //   display: inline;
+    //   vertical-align: middle;
+    //   width: 1rem;
+    // }
+
+    span {
+      font-size: 2rem;
+      color: var(--strong-cyan);
+      vertical-align: middle;
+    }
+  }
+
+  .btn-reset {
+    background-color: var(--strong-cyan);
+    color: var(--very-dark-cyan);
+    text-transform: uppercase;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background-color: var(--light-grayish-cyan);
+    }
+  }
+}

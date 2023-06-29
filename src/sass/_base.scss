@@ -1,4 +1,26 @@
 :root {
+  --strong-cyan: hsl(172, 67%, 45%);
+  --very-dark-cyan: hsl(183, 100%, 15%);
+  --dark-grayish-cyan: hsl(186, 14%, 43%);
+  --grayish-cyan: hsl(184, 14%, 56%);
+  --light-grayish-cyan: hsl(185, 41%, 84%);
+  --very-light-grayish-cyan: hsl(189, 41%, 97%);
+  --white: hsl(0, 0%, 100%);
+  --red: hsl(0, 100%, 39%);
+}
+
+$bp-medium: 700px;
+$bp-small: 330px;
+$bp-very-small: 260px;
+
+html {
+  @media screen and (max-width: $bp-small) {
+    font-size: 13px;
+  }
+
+  @media screen and (max-width: $bp-very-small) {
+    font-size: 10px;
+  }
 }
 
 body {
@@ -7,6 +29,43 @@ body {
   min-height: 100vh;
 
   font-family: "Space Mono", monospace;
+  background-color: var(--light-grayish-cyan);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 85vh;
+  justify-content: center;
+}
+
+.logo {
+  margin: 2rem 0;
+
+  @media screen and (min-width: $bp-medium) {
+    margin: 4rem 0;
+  }
+
+  img {
+    margin: auto;
+  }
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: var(--white);
+  padding: 1.5rem;
+  border-radius: 20px;
+  gap: 2rem;
+  max-width: 30rem;
+  margin: 0 auto;
+  box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.1);
+
+  @media screen and (min-width: $bp-medium) {
+    grid-template-columns: 1fr 1fr;
+    max-width: 50rem;
+  }
 }
 
 .footer {
