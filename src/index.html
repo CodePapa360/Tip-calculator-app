@@ -70,8 +70,8 @@
     />
 
     <!--  -->
-    <link rel="stylesheet" href="../css/main.css" />
-    <script defer src="./js/index.js"></script>
+    <!-- <link rel="stylesheet" href="../css/main.css" />
+    <script defer src="./js/index.js"></script> -->
     <!--  -->
   </head>
   <body>
@@ -86,7 +86,13 @@
             <label class="headline" for="bill">Bill</label>
             <div class="input-wrapper">
               <img src="./images/icon-dollar.svg" alt="Doller icon" />
-              <input class="input-number" id="bill" type="number" />
+              <input
+                class="input-number"
+                id="bill"
+                type="number"
+                min="0"
+                placeholder="0"
+              />
             </div>
           </div>
           <div>
@@ -150,6 +156,7 @@
 
               <label class="custom-percent" for="custom">
                 <input
+                  min="0"
                   class="input-number input-custom"
                   type="number"
                   name="percentage"
@@ -170,10 +177,11 @@
             <div class="input-wrapper">
               <img src="./images/icon-person.svg" alt="Person icon" />
               <input
+                min="0"
                 class="input-number"
                 id="persons"
                 type="number"
-                value="1"
+                placeholder="0"
               />
             </div>
           </div>
@@ -201,7 +209,7 @@
                   />
                 </svg>
 
-                <span>0.00</span>
+                <span id="tip">0.00</span>
               </p>
             </div>
 
@@ -224,7 +232,7 @@
                   />
                 </svg>
 
-                <span>0.00</span>
+                <span id="total">0.00</span>
               </p>
             </div>
           </div>
