@@ -10,10 +10,12 @@
 }
 
 $bp-medium: 43.75em;
-$bp-small: 20.625em;
+$bp-small: 56.25em;
 $bp-very-small: 16.25em;
 
 html {
+  font-size: 16px;
+
   @media screen and (max-width: $bp-small) {
     font-size: 13px;
   }
@@ -64,7 +66,7 @@ main {
 
   @media screen and (min-width: $bp-medium) {
     grid-template-columns: 1fr 1fr;
-    max-width: 50rem;
+    max-width: 55rem;
   }
 }
 
